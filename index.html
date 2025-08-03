@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="game-container">
+      <div id="bars">
+        <!-- player health -->
+        <div class="player-health-wrapper">
+            <div class="player-health"></div>
+            <div id="player-health" class="player-health-bg"></div>
+        </div>
+        <!-- timer -->
+        <div id="timer">10</div>
+        <!-- enemy health -->
+        <div class="enemy-health-wrapper">
+          <div class="enemy-health"></div>
+          <div id="enemy-health" class="enemy-health-bg"></div>
+        </div>
+      </div>
+      <div class="display-text"></div>
+      <canvas></canvas>
+    </div>
+    <script src="js/classes.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
